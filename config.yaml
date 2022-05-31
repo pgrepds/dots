@@ -1,0 +1,30 @@
+config:
+  backup: true
+  banner: true
+  create: true
+  dotpath: dotfiles
+  keepdot: false
+  link_dotfile_default: nolink
+  link_on_import: nolink
+  longkey: false
+dotfiles:
+  d_nvim:
+    src: config/nvim
+    dst: ~/.config/nvim
+  d_fish:
+    src: config/fish
+    dst: ~/.config/fish
+    chmod: '700'
+  f_bashrc:
+    src: bashrc
+    dst: ~/.bashrc
+  f_bash_profile:
+    src: bash_profile
+    dst: ~/.bash_profile
+profiles:
+  david-precision5550:
+    dotfiles:
+    - d_nvim
+    - d_fish
+    - f_bashrc
+    - f_bash_profile
