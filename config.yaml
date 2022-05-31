@@ -21,6 +21,9 @@ dotfiles:
   f_bash_profile:
     src: bash_profile
     dst: ~/.bash_profile
+  d_lvim:
+    src: config/lvim
+    dst: ~/.config/lvim
 profiles:
   david-precision5550:
     dotfiles:
@@ -28,3 +31,4 @@ profiles:
     - d_fish
     - f_bashrc
     - f_bash_profile
+    - d_lvim
