@@ -1,3 +1,3 @@
-function fish_greeting
-	screenfetch
-end
+#function fish_greeting
+#	screenfetch
+#end
