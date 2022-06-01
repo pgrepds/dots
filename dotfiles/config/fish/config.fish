@@ -4,7 +4,7 @@ end
 
 # Aliases
 alias gita='python3 -m gita'
-alias vim='nvim'
+alias vim='lvim'
 
 # zoxide
 zoxide init fish | source
