@@ -164,10 +164,10 @@ lvim.plugins = {
         run = "cd app && npm install",
         setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" },
     },
-    --    {
-    --      "folke/trouble.nvim",
-    --      cmd = "TroubleToggle",
-    --    },
+    {
+        "folke/trouble.nvim",
+        cmd = "TroubleToggle",
+    },
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
