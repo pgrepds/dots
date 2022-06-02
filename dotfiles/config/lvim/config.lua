@@ -24,6 +24,7 @@ lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 vim.opt.expandtab = true
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
+vim.opt.shell = "/bin/bash"
 -- unmap a default keymapping
 -- vim.keymap.del("n", "<C-Up>")
 -- override a default keymapping
